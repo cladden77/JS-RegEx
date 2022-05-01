@@ -53,7 +53,9 @@ Expected Output:
 
 */ 
 
-let emailReg = /write your regex here/
+let emailReg = /\w+@[a-zA-Z]+.[a-zA-Z]+/
+let emailArr = sampleApp.match(emailReg)
+console.log(emailArr)
 
 /* 
 
@@ -69,4 +71,4 @@ Expected Output:
 
 */ 
 
-let statusReg = /write your regex here/
+let statusReg = 
