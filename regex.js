@@ -71,4 +71,6 @@ Expected Output:
 
 */ 
 
-let statusReg = 
+let statusReg = /status:/i 
+let statusIndex = sampleApp.search(statusReg)
+console.log(statusIndex)
